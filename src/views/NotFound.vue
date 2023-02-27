@@ -1,5 +1,7 @@
 <template>
+  <div class="container">
 <p>Pedimos disculpas, algo ha fallado</p>
+  </div>
 </template>
 
 <script>

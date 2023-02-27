@@ -5,9 +5,6 @@ import Articulos from "../views/Articulos.vue"
 import Fruta from "@/views/Fruta.vue"
 import NotFound from "@/views/NotFound.vue";
 
-
-
-
 const routes = [
   {
     path: '/',
@@ -32,10 +29,9 @@ const routes = [
   },
   {
     path: '/.pathMatch(.*)*',
-    name: 'Not Found',
+    name: 'NotFound',
     component: NotFound
   }
-
 
 ]
 
