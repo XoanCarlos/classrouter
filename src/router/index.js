@@ -28,7 +28,7 @@ const routes = [
     props: true
   },
   {
-    path: '/.pathMatch(.*)*',
+    path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound
   }
